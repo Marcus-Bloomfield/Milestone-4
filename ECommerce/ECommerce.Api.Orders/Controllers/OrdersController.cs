@@ -2,6 +2,16 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
+/*Course: 		Web Programming 3
+* Assessment: 	Milestone 4
+* Created by: 	Marcus Bloomfield - 2264053
+* Date: 		01 12 2024
+* Class Name: 	OrdersController.cs
+* Description: 	This controller returns order information.
+* Time for Task:	8h 30mins
+    */
+
+
 namespace ECommerce.Api.Orders.Controllers
 {
     [ApiController]
