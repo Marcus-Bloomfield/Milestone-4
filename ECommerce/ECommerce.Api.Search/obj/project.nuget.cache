@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "jONhi8S+IB0=",
+  "dgSpecHash": "Ober7j/oWRg=",
   "success": true,
   "projectFilePath": "C:\\Users\\marcb\\OneDrive - John Abbott College\\Web Prog 3\\Milestone-4\\Milestone-4\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.32\\microsoft.extensions.configuration.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.32\\microsoft.extensions.configuration.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.32\\microsoft.extensions.configuration.binder.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.32\\microsoft.extensions.dependencyinjection.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.32\\microsoft.extensions.dependencyinjection.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.http\\3.1.32\\microsoft.extensions.http.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.http.polly\\3.1.32\\microsoft.extensions.http.polly.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.logging\\3.1.32\\microsoft.extensions.logging.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.32\\microsoft.extensions.logging.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.options\\3.1.32\\microsoft.extensions.options.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.32\\microsoft.extensions.primitives.3.1.32.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
+    "C:\\Users\\marcb\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

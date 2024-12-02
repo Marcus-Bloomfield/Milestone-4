@@ -7,8 +7,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Polly;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -27,6 +29,16 @@ namespace ECommerce.Api.Search
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<ISearchService, SearchService>();
+            services.AddScoped<IOrdersService, OrdersService>();
+            services.AddScoped<IProductsService, ProductsService>();
+            services.AddHttpClient("OrdersService", config =>
+            {
+                config.BaseAddress = new Uri(Configuration["Services:Orders"]);
+            });
+            services.AddHttpClient("ProductsService", config =>
+            {
+                config.BaseAddress = new Uri(Configuration["Services:Products"]);
+            }).AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(500)));
             services.AddControllers();
         }
 
